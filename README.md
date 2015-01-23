@@ -5,7 +5,9 @@ counters have been added.
 Files modified:
 
 arch/arm/kvm/handle_exit.c
+
 arch/arm/kvm/arm.c
+
 zahra/pmu_zahra.c
 zahra/pmu_zahra.h
 zahra/Makefile
