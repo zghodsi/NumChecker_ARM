@@ -1,3 +1,0 @@
-#NumChecker
-
-NumChecker is a Virtual Machine Monitor (VMM) based framework to detect control-flow modifying kernel rootkits in a guest Virtual Machine (VM). NumChecker detects malicious modifications to a system call in the guest VM by checking the number of certain hardware events that occur during the system call's execution. To automatically count these events, NumChecker leverages the Hardware Performance Counters (HPCs), which exist in most modern processors. For more information, read [NumChecker](https://ai2-s2-pdfs.s3.amazonaws.com/1b8b/564d609efe9356d31980b7841ba75fc216c2.pdf). This implementation is a prototype of NumChecker on ARM running on Chromebook.
