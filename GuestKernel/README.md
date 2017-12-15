@@ -7,17 +7,17 @@ before envoking the system call that we want to monitor.
 ## Implementation
 To enable monitoring of the system calls, the following files have been modified:
 
-arch/arm/kernel/sys_arm.c
+- arch/arm/kernel/sys_arm.c
 
-arch/arm/kernel/Calls.s
+- arch/arm/kernel/Calls.s
 
-include/linux/syscalls.h
+- include/linux/syscalls.h
 
-fs/read_write.c
+- fs/read_write.c
 
-fs/readdir.c
+- fs/readdir.c
 
-fs/ioctl.c
+- fs/ioctl.c
 
 ## Compile
 
