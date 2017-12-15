@@ -1,9 +1,9 @@
-# HPC_Chromebook_HostKernel
+# Chromebook Host Kernel
 This is the host kernel (3.13) for Chromebook. The nessesary functions to create and set the hardware performance
 counters have been added.
 
-
-Files modified:
+## Implementation
+To enable the hardware performance counters, the following files have been modified:
 
 arch/arm/kvm/handle_exit.c
 
@@ -24,6 +24,7 @@ arch/arm/kernel/perf_event_v7.c
 Makefile
 
 
-To compile:
-
+## Compile
+```shell
 ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- make uImage dtbs -j4
+```
